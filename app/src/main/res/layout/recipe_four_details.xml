@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfectionist"
+            android:textColor="#08c"
+            android:textSize="32sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/perfectionist"
+            android:scaleType="centerCrop"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="How to play against these guys"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You should capitalize mostly on the time trouble these players will get themselves into."
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="They will start making severe mistakes and will not be able to keep up with the game."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Happy Playing"
+            android:textSize="22sp"
+            android:textColor="#08c"
+            android:textAllCaps="true"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>

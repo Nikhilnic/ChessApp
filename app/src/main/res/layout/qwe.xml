@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5 Most Typical Types of Chess Players (and how to beat them)"
+                android:textSize="24sp"
+                android:textColor="#0098dc"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/attack"
+                        android:scaleType="centerCrop"/>
+
+
+                    <CheckBox
+                        android:id="@+id/recipeOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add to Favourite"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="#0098dc"
+                        android:textColor="#fff"
+                        android:onClick="showRecipeOneDetails"
+                        android:text="Get Info"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Attacking Maniac"
+                        android:textSize="26sp"
+                        android:textColor="#fff"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/passive_player"
+                        android:scaleType="centerCrop"/>
+
+                    <CheckBox
+                        android:id="@+id/recipeTwo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add to Favourite"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Passive Player"
+                        android:textSize="26sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="#0098dc"
+                        android:textColor="#fff"
+                        android:onClick="showRecipeTwoDetails"
+                        android:text="Get Info"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/exchanger"
+                        android:scaleType="centerCrop"/>
+
+                    <CheckBox
+                        android:id="@+id/recipeThree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add to Favourite"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Exchanger"
+                        android:textSize="26sp"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="#0098dc"
+                        android:textColor="#fff"
+                        android:onClick="showRecipeThreeDetails"
+                        android:text="Get Info"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp">
+                <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/perfectionist"
+                        android:scaleType="centerCrop"/>
+
+                    <CheckBox
+                        android:id="@+id/recipeFour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add to Favourite"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Perfectionist"
+                        android:textSize="26sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="#0098dc"
+                        android:textColor="#fff"
+                        android:onClick="showRecipeFourDetails"
+                        android:text="Get Info"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp">
+                <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/strategist"
+                        android:scaleType="centerCrop"/>
+
+                    <CheckBox
+                        android:id="@+id/recipeFive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Add to Favourite"
+                        android:textSize="16sp"
+                        android:paddingLeft="20dp"
+                        android:textColor="#fff"
+                        android:layout_marginBottom="5dp"
+                        android:layout_alignParentBottom="true"/>
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Strategist"
+                        android:textSize="26sp"
+                        android:textColor="#fff"
+
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginBottom="10dp"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:background="#0098dc"
+                        android:textColor="#fff"
+                        android:onClick="showRecipeFiveDetails"
+                        android:text="Get Info"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"
+                        />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="My favourite"
+        android:background="#666"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:onClick="showMyFavourites"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>
